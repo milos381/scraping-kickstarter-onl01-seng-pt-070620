@@ -10,7 +10,7 @@ def create_project_hash
   projects = {}
 
   kickstarter.css("li.project.grid_4").each do |project|
-    projects[title.to_sym] = {} #make it so that each project title is a key, and the value is another hash with each of our other data points as keys
+    #projects[title.to_sym] = {} make it so that each project title is a key, and the value is another hash with each of our other data points as keys
   end
   projects
 
